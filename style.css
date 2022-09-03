@@ -46,9 +46,10 @@ html, body {
 
 .site-title-image {
   display: block;
+  filter: brightness(0) invert(1);
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 100px;
   -webkit-animation: breathing 5s ease-out infinite normal;
   animation: breathing 5s ease-out infinite normal;
   animation-iteration-count: infinite;
