@@ -1,9 +1,11 @@
 html, body {
+  text-transform: uppercase;
+
   height: 100%;
   width: 100%;
   background-color: #0d0d0d;
   color: white;
-  font-family: 'rubik';
+  font-family: 'Amatic+SC';
 }
 
 .bg-image {
@@ -11,8 +13,8 @@ html, body {
   background-image: url("img/bg.jpg");
   
   /* Add the blur effect */
-  filter: blur(1px);
-  -webkit-filter: blur(1
+  filter: blur(5px);
+  -webkit-filter: blur(5
  px);
   
   /* Full height */
@@ -30,7 +32,7 @@ html, body {
 
 .bg-text {
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+  background-color: rgba(0, 0, 0, 0.666); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
   position: absolute;
@@ -38,7 +40,7 @@ html, body {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 200;
-  width: 80%;
+  width: 50%;
   padding: 20px;
   text-align: center;
 
@@ -131,7 +133,7 @@ html, body {
 
 .searchbox {
   font-size: 14px;
-  font-family: 'rubik';
+  font-family: 'Amatic+SC';
   font-weight: 700;
   color: #d0d0d0;
   border: 2px solid #d0d0d0;
@@ -150,7 +152,7 @@ input::placeholder {
 
 .extension {
   font-size: 14px;
-  font-family: 'rubik';
+  font-family: 'Amatic+SC';
   font-weight: 700;
   color: #ffffff;
   border: 2px solid #ffffff;
@@ -177,7 +179,7 @@ input[type='checkbox'] {
 .lbl-toggle {
   display: block;
   font-weight: bold;
-  font-family: 'rubik';
+  font-family: 'Amatic+SC';
   text-align: center;
   padding: 1rem;
   color: white;
@@ -224,7 +226,7 @@ input[type='checkbox'] {
 }
 
 .collapsible-content .content-inner {
-  font-family: 'rubik';
+  font-family: 'Amatic+SC';
   background: transparent;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
@@ -269,12 +271,12 @@ input[type='checkbox'] {
   justify-content: center;
   align-items: center;
   font-size: 50px;
-  font-family: 'rubik';
+  font-family: 'Amatic+SC';
   color: white;
   z-index: 200;
 
   letter-spacing: 4px;
-  font-family: rubik;
+  font-family: Amatic+SC;
   font-weight: 700;
   font-style: normal;
   line-height: 1.25em;
@@ -285,34 +287,37 @@ input[type='checkbox'] {
 }
 
 .subtitle {
+  text-transform: uppercase;
+
   padding: 2px;
   margin-bottom: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  font-family: 'rubik';
+  font-family: 'Amatic+SC';
   opacity: 50%;
   z-index: 200;
 
   letter-spacing: 4px;
-  font-family: rubik;
+  font-family: Amatic+SC;
   font-weight: 400;
   font-style: normal;
   line-height: 1.25em;
-  text-transform: uppercase;
   text-decoration: none;
   list-style-type: none;
 
 }
 
 .subsubtitle {
+  text-transform: uppercase;
+
   padding: 2px 7px 2px 7px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 14px;
-  font-family: 'rubik';
+  font-family: 'Amatic+SC';
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 4px;
@@ -340,7 +345,7 @@ button {
   border: 1px solid transparent;
   padding: 5px;
   height: 60px;
-  font-family: 'rubik';
+  font-family: 'Amatic+SC';
   text-transform: uppercase;
   font-size: 50px;
   color: #242424;
@@ -353,7 +358,7 @@ button {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  font-family: 'rubik';
+  font-family: 'Amatic+SC';
   color: #ffffff50;
   text-transform: uppercase;
 
